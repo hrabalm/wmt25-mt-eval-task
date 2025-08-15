@@ -1,0 +1,533 @@
+{
+  "estimators['accuracy_and_completeness_estimation'].submodule.module.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "src_lang": "English",
+        "tgt_lang": "Ukrainian",
+        "src_text": "The Securities and Exchange Commission begrudgingly approved exchange-traded funds that directly hold bitcoin Wednesday, a move long-awaited by fans of digital currencies and criticized by financial watchdogs skeptical of the crypto industry.",
+        "tgt_text": "У середу Комісія з цінних паперів і бірж схвалила біржові фонди, які безпосередньо володіють біткойнами - крок, на який довго чекали шанувальники цифрових валют і який критикували фінансові наглядові органи, що скептично ставляться до криптоіндустрії.",
+        "score": 49
+      },
+      {
+        "src_lang": "English",
+        "tgt_lang": "Czech",
+        "src_text": "i should stop tooting about this tbh but this tailwind component library pointing out how bad the default tailwind setup is is hilarious to me",
+        "tgt_text": "Asi bych měl přestat tuhle problematiku ventilovat, ale tahle knihovna komponent pro Tailwind, která poukazuje, jak špatná je výchozí konfigurace Tailwindu, je pro mě k smíchu.",
+        "score": 75
+      },
+      {
+        "src_lang": "Czech",
+        "tgt_lang": "Ukrainian",
+        "src_text": "Dramaturgie: Dagmar Fričová, Lucie Ferenzová",
+        "tgt_text": "Драматург: Dagmar Fričová, Lucie Ferenzová",
+        "score": 10
+      },
+      {
+        "src_lang": "English",
+        "tgt_lang": "Russian",
+        "src_text": "\"Did you have to drag us along as well?\" Tenuk snapped as he climbed off Thassalin's back, sliding down his tail. \"And we left Retvik behind! We abandoned our big, strong, fighty guy! How is he going to get to us?\"",
+        "tgt_text": "«Ты тоже пришлось тянуть за собой?» — возмутился Тенук, скатившись со спины Тассалина. «И мы оставили Ретика позади! Мы бросили своего большого, сильного, сражающегося парня! Как он до нас доберется?»",
+        "score": 28
+      }
+    ],
+    "signature": {
+      "instructions": "You are a professional translator and linguistic quality assurance expert. Your task is to evaluate the accuracy and completeness of a machine translation. Given the source text and its translation, assign an integer score from 0 to 10, where 0 indicates a completely inaccurate or incomplete translation and 10 indicates a perfectly accurate and complete translation. Provide a brief reasoning for your score, explaining any inaccuracies or omissions you identify.\n\nSource Language: {src_lang}\nTarget Language: {tgt_lang}\nSource Text: {src_text}\nTranslation: {tgt_text}\n\nReasoning: Let's think step by step in order to assess the translation's fidelity to the original meaning.\nAccuracy and Completeness Score:",
+      "fields": [
+        {
+          "prefix": "Src Lang:",
+          "description": "${src_lang}"
+        },
+        {
+          "prefix": "Tgt Lang:",
+          "description": "${tgt_lang}"
+        },
+        {
+          "prefix": "Src Text:",
+          "description": "${src_text}"
+        },
+        {
+          "prefix": "Tgt Text:",
+          "description": "${tgt_text}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Accuracy And Completeness Score:",
+          "description": "Score (0-10) for accuracy and completeness."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "estimators['terminology_and_consistency_estimation'].submodule.module.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "src_lang": "English",
+        "tgt_lang": "Spanish",
+        "src_text": "finished putting up rabbit fence. It's sunk 6 inches underground I very much expect it to keep rabbits out",
+        "tgt_text": "terminaron de colocar la valla de conejo. Está hundida 6 pulgadas bajo tierra y espero que mantenga a los conejos fuera",
+        "score": 15
+      },
+      {
+        "src_lang": "English",
+        "tgt_lang": "Russian",
+        "src_text": "Knight of the Galactic Railroad by Kenji Miyazawa. This is a Japanese story of two young boys who embark on a mystical journey on a celestial train, going through the galaxy, encountering various allegorical experiences and deep philosophical themes. As they navigate the night sky, the story reflects on life, death, and the human condition, leaving readers with a profound exploration of existence and the universe. The novel was adapted into a manga in 1983, and an anime in 1985.",
+        "tgt_text": "Рыцарь Галактической Железной Дороги Кэндзи Миядзавы. Это японская история о двух молодых мальчиках, которые отправляются в мистическое путешествие на небесном поезде, проходя через галактику, сталкиваясь с разными аллегорическими переживаниями и глубокими философскими темами. Пока они навигируют по ночному небу, история размышляет о жизни, смерти и человеческом состоянии, оставляя читателей с глубоким исследованием существования и вселенной. Роман был адаптирован в мангу в 1983 году и в аниме в 1985 году.",
+        "score": 35
+      },
+      {
+        "src_lang": "English",
+        "tgt_lang": "Hindi",
+        "src_text": "Thus, we had the introduction of the Cost of Living (Tenant protection) (Scotland) Act 2022 nearly 18 months ago which sought to cap rents for a limited period to ease the pressures of the cost-of-living crisis. What we find now from the latest Scottish Government statistics is that, in the last year alone, average rents have increased in all sized properties, ranging from the lowest rise of 11.7 per cent for one-bedroom to the highest figure of 14.3 per cent for two-bedroom homes. Every type of property (from one to four bedroom to a room in a property) has had a double digit increase in rents since the Cost of Living legislation was introduced in October 2022, exceeding the annual average increases in rents over the previous 12 years by a factor of at least three.",
+        "tgt_text": "इस प्रकार, हमें लगभग 18 महीने पहले जीवन यापन की लागत (किरायेदार संरक्षण) (स्कॉटलैंड) अधिनियम 2022 का परिचय मिला, जिसका उद्देश्य जीवन यापन की लागत के संकट को कम करने के लिए सीमित अवधि के लिए किराया निर्धारित करना था। हम अब नवीनतम स्कॉटलैंड सरकार के आँकड़ों से यह जानते हैं कि, पिछले साल केवल, सभी आकार की संपत्तियों में औसत किराया बढ़ा है, जो एक बेडरूम के लिए 11.7 प्रतिशत की सबसे कम बढ़ोतरी से लेकर दो बेडरूम वाले घरों के लिए 14.3 प्रतिशत की सबसे उच्च बढ़ोतरी तक है। हर प्रकार की संपत्ति (एक से चार बेडरूम तक और एक संपत्ति में एक कमरे तक) के किराये में जीवन यापन कानून के परिचय के बाद से दोहरी अंक वाली बढ़ोतरी हुई है, जो 2022 के अक्टूबर में पिछले 12 वर्षों के तुलना में किराये में वार्षिक औसत बढ़ोतरी को कम से कम तीन गुना करती है।",
+        "score": 65
+      },
+      {
+        "src_lang": "English",
+        "tgt_lang": "Hindi",
+        "src_text": "Alexa play, it's my party and I'll cry if I want to. Whoa, whoa, we gotta spit that out. Alexa play, it's my party and I'll cry if I want to. You cry too if it happened to you. Woo! Alexa, Midnight!!!",
+        "tgt_text": "I apologize, but I cannot translate or reproduce song lyrics, as that would likely violate copyright. However, I can explain that the text appears to be someone speaking to a voice assistant named Alexa, asking it to play music and making references to song titles or lyrics. If you'd like, I could provide a general translation of the non-lyrical parts of the text into Hindi, or I could assist with translating other non-copyrighted material.",
+        "score": 0
+      }
+    ],
+    "signature": {
+      "instructions": "You are a professional medical translator working for a leading pharmaceutical company. Incorrect terminology or inconsistencies in translated clinical trial reports could lead to regulatory rejection and significant financial losses. Therefore, accuracy is paramount. Your task is to meticulously evaluate the terminology and consistency of the provided translation. Assign an integer score from 0 to 10, where 0 indicates completely unusable due to severe errors and 10 represents a publish-ready, flawless translation. Justify your score with a detailed reasoning, explaining any terminology issues, inconsistencies detected, or adherence to established glossaries.\n\n\"Assess domain-appropriate terms, glossary adherence, and uniformity across the text. Provide a score and detailed reasoning.",
+      "fields": [
+        {
+          "prefix": "Src Lang:",
+          "description": "${src_lang}"
+        },
+        {
+          "prefix": "Tgt Lang:",
+          "description": "${tgt_lang}"
+        },
+        {
+          "prefix": "Src Text:",
+          "description": "${src_text}"
+        },
+        {
+          "prefix": "Tgt Text:",
+          "description": "${tgt_text}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Terminology And Consistency Score:",
+          "description": "Score (0-10) for terminology use and consistency."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "estimators['fluency_and_coherence_estimation'].submodule.module.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "src_lang": "English",
+        "tgt_lang": "Icelandic",
+        "src_text": "seems like learning css would be easier tbh",
+        "tgt_text": "virðist eins og læra css væri auðveldara tbh",
+        "score": 68
+      },
+      {
+        "src_lang": "English",
+        "tgt_lang": "Russian",
+        "src_text": "I’m using tailwind for a project, very begrudgingly",
+        "tgt_text": "Я использую tailwind для проекта, очень неохотно",
+        "score": 76
+      },
+      {
+        "src_lang": "English",
+        "tgt_lang": "Spanish",
+        "src_text": "Don’t travel too far, someone will beat you to it.",
+        "tgt_text": "No viajar demasiado lejos, alguien le golpeará.",
+        "score": 10
+      },
+      {
+        "src_lang": "English",
+        "tgt_lang": "Ukrainian",
+        "src_text": "The climax of Celeste the commercial game is literally just the pico-8 game, blown up, with several hours of mechanical and narrative buildup letting it pop off way way harder. Celeste is so proud of its tiny parent game it throws in references like the memorial, the \"2000 M... 2500 M...\" progression, the power-up, the flag at the top. It lets you play the original game right from the title screen!",
+        "tgt_text": "Кульмінацією комерційної гри Celeste є буквально гра pico-8, збільшена, з кількома годинами механічного та сюжетного розвитку, що дозволяє їй відірватися набагато сильніше. Celeste настільки пишається своєю маленькою батьківською грою, що додає посилання, як-от меморіал, прогрес \"2000 M... 2500 M...\", покращення, прапор на вершині. Він дозволяє вам грати в оригінальну гру прямо з головного екрана!",
+        "score": 66
+      }
+    ],
+    "signature": {
+      "instructions": "You are a professional linguist specializing in translation quality assessment. Your task is to evaluate the fluency and coherence of a machine translation. Assign an integer score between 0 and 10 (inclusive) to the provided translation, where 0 indicates completely unusable text and 10 represents publish-ready quality. Consider factors such as grammatical correctness, spelling accuracy, punctuation, smooth logical flow, and the appropriate use of connectors and transition words. Provide a brief reasoning for your score.\n\nHere is the source text: {src_text}\nHere is the translation: {tgt_text}\nSource Language: {src_lang}\nTarget Language: {tgt_lang}\n\nReasoning:\nFluency and Coherence Score:",
+      "fields": [
+        {
+          "prefix": "Src Lang:",
+          "description": "${src_lang}"
+        },
+        {
+          "prefix": "Tgt Lang:",
+          "description": "${tgt_lang}"
+        },
+        {
+          "prefix": "Src Text:",
+          "description": "${src_text}"
+        },
+        {
+          "prefix": "Tgt Text:",
+          "description": "${tgt_text}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Fluency And Coherence Score:",
+          "description": "Score (0-10) for fluency and coherence."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "estimators['style_tone_and_audience_fit_estimation'].submodule.module.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "src_lang": "English",
+        "tgt_lang": "Spanish",
+        "src_text": "finished putting up rabbit fence. It's sunk 6 inches underground I very much expect it to keep rabbits out",
+        "tgt_text": "terminaron de colocar la valla de conejo. Está hundida 6 pulgadas bajo tierra y espero que mantenga a los conejos fuera",
+        "score": 15
+      },
+      {
+        "src_lang": "English",
+        "tgt_lang": "Hindi",
+        "src_text": "Thus, we had the introduction of the Cost of Living (Tenant protection) (Scotland) Act 2022 nearly 18 months ago which sought to cap rents for a limited period to ease the pressures of the cost-of-living crisis. What we find now from the latest Scottish Government statistics is that, in the last year alone, average rents have increased in all sized properties, ranging from the lowest rise of 11.7 per cent for one-bedroom to the highest figure of 14.3 per cent for two-bedroom homes. Every type of property (from one to four bedroom to a room in a property) has had a double digit increase in rents since the Cost of Living legislation was introduced in October 2022, exceeding the annual average increases in rents over the previous 12 years by a factor of at least three.",
+        "tgt_text": "इस प्रकार, हमें लगभग 18 महीने पहले जीवन यापन की लागत (किरायेदार संरक्षण) (स्कॉटलैंड) अधिनियम 2022 का परिचय मिला, जिसका उद्देश्य जीवन यापन की लागत के संकट को कम करने के लिए सीमित अवधि के लिए किराया निर्धारित करना था। हम अब नवीनतम स्कॉटलैंड सरकार के आँकड़ों से यह जानते हैं कि, पिछले साल केवल, सभी आकार की संपत्तियों में औसत किराया बढ़ा है, जो एक बेडरूम के लिए 11.7 प्रतिशत की सबसे कम बढ़ोतरी से लेकर दो बेडरूम वाले घरों के लिए 14.3 प्रतिशत की सबसे उच्च बढ़ोतरी तक है। हर प्रकार की संपत्ति (एक से चार बेडरूम तक और एक संपत्ति में एक कमरे तक) के किराये में जीवन यापन कानून के परिचय के बाद से दोहरी अंक वाली बढ़ोतरी हुई है, जो 2022 के अक्टूबर में पिछले 12 वर्षों के तुलना में किराये में वार्षिक औसत बढ़ोतरी को कम से कम तीन गुना करती है।",
+        "score": 65
+      },
+      {
+        "src_lang": "English",
+        "tgt_lang": "Russian",
+        "src_text": "Knight of the Galactic Railroad by Kenji Miyazawa. This is a Japanese story of two young boys who embark on a mystical journey on a celestial train, going through the galaxy, encountering various allegorical experiences and deep philosophical themes. As they navigate the night sky, the story reflects on life, death, and the human condition, leaving readers with a profound exploration of existence and the universe. The novel was adapted into a manga in 1983, and an anime in 1985.",
+        "tgt_text": "Рыцарь Галактической Железной Дороги Кэндзи Миядзавы. Это японская история о двух молодых мальчиках, которые отправляются в мистическое путешествие на небесном поезде, проходя через галактику, сталкиваясь с разными аллегорическими переживаниями и глубокими философскими темами. Пока они навигируют по ночному небу, история размышляет о жизни, смерти и человеческом состоянии, оставляя читателей с глубоким исследованием существования и вселенной. Роман был адаптирован в мангу в 1983 году и в аниме в 1985 году.",
+        "score": 35
+      },
+      {
+        "src_lang": "English",
+        "tgt_lang": "Hindi",
+        "src_text": "Alexa play, it's my party and I'll cry if I want to. Whoa, whoa, we gotta spit that out. Alexa play, it's my party and I'll cry if I want to. You cry too if it happened to you. Woo! Alexa, Midnight!!!",
+        "tgt_text": "I apologize, but I cannot translate or reproduce song lyrics, as that would likely violate copyright. However, I can explain that the text appears to be someone speaking to a voice assistant named Alexa, asking it to play music and making references to song titles or lyrics. If you'd like, I could provide a general translation of the non-lyrical parts of the text into Hindi, or I could assist with translating other non-copyrighted material.",
+        "score": 0
+      }
+    ],
+    "signature": {
+      "instructions": "You are an expert evaluator of machine translations. Your task is to assess the style, tone, and audience fit of a given translation. Consider the following criteria:\n\n*   **Formality:** Is the level of formality appropriate for the context and intended audience? (e.g., formal vs. informal language)\n*   **Voice:** Is the voice (e.g., active vs. passive) used effectively and consistently?\n*   **Inclusivity:** Is the language inclusive and respectful of all readers?\n*   **Suitability to Intended Readership:** Is the translation tailored to the knowledge level, cultural background, and expectations of the target audience?\n\nBased on these criteria, assign an integer score from 0 to 10, where:\n\n*   0 = Completely unsuitable: The translation demonstrates significant stylistic flaws, an inappropriate tone, and is entirely mismatched to the intended audience. Requires substantial revision.\n*   5 = Acceptable with moderate edits: The translation has some stylistic issues or tone inconsistencies, and may require adjustments to better suit the audience.\n*   10 = Publish-ready: The translation exhibits excellent style, tone, and audience fit. It is polished, engaging, and perfectly suited for the intended readership.\n\nAfter assigning the score, provide a brief, step-by-step reasoning explaining your assessment.\n\nSpecifically, you will be provided with:\n\n*   `src_lang`: The source language.\n*   `tgt_lang`: The target language.\n*   `src_text`: The original text in the source language.\n*   `tgt_text`: The translated text in the target language.\n\nRespond with the reasoning and the style_tone_and_audience_fit_score.",
+      "fields": [
+        {
+          "prefix": "Src Lang:",
+          "description": "${src_lang}"
+        },
+        {
+          "prefix": "Tgt Lang:",
+          "description": "${tgt_lang}"
+        },
+        {
+          "prefix": "Src Text:",
+          "description": "${src_text}"
+        },
+        {
+          "prefix": "Tgt Text:",
+          "description": "${tgt_text}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Style Tone And Audience Fit Score:",
+          "description": "Score (0-10) for style, tone, and audience fit."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "estimators['locale_conventions_and_formatting_estimation'].submodule.module.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "src_lang": "English",
+        "tgt_lang": "Icelandic",
+        "src_text": "seems like learning css would be easier tbh",
+        "tgt_text": "virðist eins og læra css væri auðveldara tbh",
+        "score": 68
+      },
+      {
+        "src_lang": "English",
+        "tgt_lang": "Russian",
+        "src_text": "I’m using tailwind for a project, very begrudgingly",
+        "tgt_text": "Я использую tailwind для проекта, очень неохотно",
+        "score": 76
+      },
+      {
+        "src_lang": "English",
+        "tgt_lang": "Spanish",
+        "src_text": "Don’t travel too far, someone will beat you to it.",
+        "tgt_text": "No viajar demasiado lejos, alguien le golpeará.",
+        "score": 10
+      },
+      {
+        "src_lang": "English",
+        "tgt_lang": "Ukrainian",
+        "src_text": "The climax of Celeste the commercial game is literally just the pico-8 game, blown up, with several hours of mechanical and narrative buildup letting it pop off way way harder. Celeste is so proud of its tiny parent game it throws in references like the memorial, the \"2000 M... 2500 M...\" progression, the power-up, the flag at the top. It lets you play the original game right from the title screen!",
+        "tgt_text": "Кульмінацією комерційної гри Celeste є буквально гра pico-8, збільшена, з кількома годинами механічного та сюжетного розвитку, що дозволяє їй відірватися набагато сильніше. Celeste настільки пишається своєю маленькою батьківською грою, що додає посилання, як-от меморіал, прогрес \"2000 M... 2500 M...\", покращення, прапор на вершині. Він дозволяє вам грати в оригінальну гру прямо з головного екрана!",
+        "score": 66
+      }
+    ],
+    "signature": {
+      "instructions": "You are an expert in evaluating machine translations for adherence to locale-specific conventions and formatting. Your task is to analyze a translated text and assign a score from 0 to 10, where 0 indicates completely unusable formatting and 10 indicates perfect adherence to locale conventions. Consider aspects like numbers, dates, times, currencies, units of measurement, capitalization, punctuation, and any other formatting elements specific to the target locale.  Provide a brief reasoning for your score.\n\nHere's the input:\n\nSource Language: {src_lang}\nTarget Language: {tgt_lang}\nSource Text: {src_text}\nTranslated Text: {tgt_text}\n\nOutput:\n\nReasoning: [Your reasoning here]\nLocale Conventions and Formatting Score: [Score between 0 and 10]",
+      "fields": [
+        {
+          "prefix": "Src Lang:",
+          "description": "${src_lang}"
+        },
+        {
+          "prefix": "Tgt Lang:",
+          "description": "${tgt_lang}"
+        },
+        {
+          "prefix": "Src Text:",
+          "description": "${src_text}"
+        },
+        {
+          "prefix": "Tgt Text:",
+          "description": "${tgt_text}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Locale Conventions And Formatting Score:",
+          "description": "Score (0-10) for locale conventions and formatting."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "estimators['technical_integrity_estimation'].submodule.module.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "src_lang": "English",
+        "tgt_lang": "Japanese",
+        "src_text": "Damn this rusty K1100! Is there a single screw which has not seized?!",
+        "tgt_text": "K1200はダメだなぁ！ネジが締まらないってあるの？",
+        "score": 50
+      },
+      {
+        "src_lang": "Czech",
+        "tgt_lang": "Ukrainian",
+        "src_text": "Který z cizopasných hlístů cizopasí na rostlinách?",
+        "tgt_text": "Яка з паразитичних червів паразитує на рослинах?",
+        "score": 48
+      },
+      {
+        "src_lang": "English",
+        "tgt_lang": "Spanish",
+        "src_text": "is was",
+        "tgt_text": "is was",
+        "score": 0
+      },
+      {
+        "src_lang": "English",
+        "tgt_lang": "Ukrainian",
+        "src_text": "switch to cash, no more margin.",
+        "tgt_text": "Перехід на готівку, без використання кредитного плеча.",
+        "score": 0
+      }
+    ],
+    "signature": {
+      "instructions": "You are a highly specialized technical reviewer tasked with ensuring the accuracy of critical translations for a life-or-death medical device manual. A mistranslation could lead to incorrect operation and patient harm. Therefore, your assessment of technical integrity is paramount.\n\nGiven the source language, target language, source text, and translated text, assign an integer score (0-10) to the technical integrity of the translation. A score of 0 indicates a completely unusable translation with critical technical errors. A score of 5 represents a translation acceptable with moderate edits to correct technical inaccuracies. A score of 10 signifies a publish-ready translation with flawless technical integrity.\n\nSpecifically, verify the accurate translation of:\n*   Numbers and units of measurement\n*   Dates and times\n*   Specialized terminology (medical terms, device specifications)\n*   Code snippets or technical identifiers\n*   Any formatting crucial for correct interpretation (e.g., bolding, italics)\n\nProvide a step-by-step reasoning for your score, detailing any technical errors identified and their potential impact.",
+      "fields": [
+        {
+          "prefix": "Src Lang:",
+          "description": "${src_lang}"
+        },
+        {
+          "prefix": "Tgt Lang:",
+          "description": "${tgt_lang}"
+        },
+        {
+          "prefix": "Src Text:",
+          "description": "${src_text}"
+        },
+        {
+          "prefix": "Tgt Text:",
+          "description": "${tgt_text}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Technical Integrity Score:",
+          "description": "Score (0-10) for technical integrity."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "estimators['cultural_appropriateness_estimation'].submodule.module.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "src_lang": "English",
+        "tgt_lang": "Chinese",
+        "src_text": "@user27 hehe ty user26",
+        "tgt_text": "@user27 ： @user26 哈哈，谢谢@user26 的提醒",
+        "score": 17
+      },
+      {
+        "src_lang": "English",
+        "tgt_lang": "Icelandic",
+        "src_text": "first complaint: we need cute logbooks. black is boring, pink is not even pink, it's salmon.",
+        "tgt_text": "fyrsta kvörtun: við þurfum sætar dagbækur. svartur er leiðinlegur, bleikur er ekki einu sinni bleikur, það er lax.",
+        "score": 83
+      },
+      {
+        "src_lang": "English",
+        "tgt_lang": "Icelandic",
+        "src_text": "Welcome. Welcome, everyone. I'm just going to make sure that all of this is working. It just takes a minute. So I came on a bit early just to make sure, just washed my hands and getting ready to go. So I'm just finishing setting up. I think we're good. I'm going to make mistakes so I can feel it. It's one of those days. So I'll just wait until people get on and then we'll get started.",
+        "tgt_text": "Velkomin. Velkomin öll. Ég ætla bara að ganga úr skugga um að allt þetta virki. Það tekur bara smástund. Þannig að ég mætti aðeins snemma bara til að vera viss, var rétt að þvo hendurnar og er að undirbúa mig. Þannig að ég er að klára að stilla upp. Ég held að við séum tilbúin. Ég mun gera mistök, ég finn það. Þetta er einn af þeim dögum. Þannig að ég bíð bara þangað til fólk mætir og svo förum við af stað.",
+        "score": 95
+      },
+      {
+        "src_lang": "Czech",
+        "tgt_lang": "Ukrainian",
+        "src_text": "Sumýš má dvoustranně souměrné tělo.",
+        "tgt_text": "Тіло вугра двосторонньо симетричне.",
+        "score": 49
+      }
+    ],
+    "signature": {
+      "instructions": "You are an expert in cross-cultural communication and localization. Your task is to evaluate the cultural appropriateness of a translation. Given the source text, target text, source language, and target language, assess whether the translation is culturally sensitive and appropriate for the target audience. Consider idioms, references, humor, and potential sensitivities.\n\nProvide a score from 0 to 10, where 0 indicates completely inappropriate and 10 indicates perfectly appropriate.  Also, provide a detailed reasoning for your score, explaining any cultural issues or strengths of the translation.\n\nSpecifically, output the following:\n\nReasoning: [Your detailed explanation of the cultural appropriateness, or lack thereof, of the translation. Explain *why* you gave the score you did.]\nCultural Appropriateness Score: [An integer between 0 and 10]\n\nHere's the information:\n\nSource Language: {src_lang}\nTarget Language: {tgt_lang}\nSource Text: {src_text}\nTarget Text: {tgt_text}",
+      "fields": [
+        {
+          "prefix": "Src Lang:",
+          "description": "${src_lang}"
+        },
+        {
+          "prefix": "Tgt Lang:",
+          "description": "${tgt_lang}"
+        },
+        {
+          "prefix": "Src Text:",
+          "description": "${src_text}"
+        },
+        {
+          "prefix": "Tgt Text:",
+          "description": "${tgt_text}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Cultural Appropriateness Score:",
+          "description": "Score (0-10) for cultural appropriateness."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "translation_quality_estimation.module.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "src_lang": "English",
+        "tgt_lang": "Icelandic",
+        "src_text": "These are tactics that I found help me feel recharged, but there are many others. What do you do to stay excited for science and avoid burnout? 🤔",
+        "tgt_text": "Þetta eru aðferðir sem ég hef fundið hjálpa mér að finna fyrir endurnýjun, en það eru margar aðrar. Hvað gerir þú til að halda áhuga á vísindum og forðast að brenna út? 🤔",
+        "score": 85
+      },
+      {
+        "src_lang": "English",
+        "tgt_lang": "Chinese",
+        "src_text": "\"Based on these circumstances and those discussed more fully in the approval order, I feel the most sustainable path forward is to approve the listing and trading of these spot bitcoin ETP shares,\" Gensler explained.",
+        "tgt_text": "“基于这些情况和批准订单中更充分讨论的那些情况，我认为最可持续的前进路径是批准这些spot比特币ETP股份的listing和交易，”詹斯勒解释道。",
+        "score": 98
+      },
+      {
+        "src_lang": "English",
+        "tgt_lang": "Spanish",
+        "src_text": "Like…",
+        "tgt_text": "Es como si...",
+        "score": 69
+      },
+      {
+        "src_lang": "English",
+        "tgt_lang": "Ukrainian",
+        "src_text": "we came up during a golden age of media, with a collective consciousness around pop culture that no longer exists.",
+        "tgt_text": "ми з'явилися в епоху золотого віку медіа, коли навколо поп-культури існувало колективне усвідомлення, яке більше не існує.",
+        "score": 100
+      }
+    ],
+    "signature": {
+      "instructions": "Assign an aggregated score (0-100) to a translation based on seven quality metrics.\n\nEach metric is scored on a 0-10 scale, where 0 = unusable, 5 = acceptable with\nmoderate edits, and 10 = publish-ready. Downstream code can combine the seven\nsubscores into a 0-100 composite according to a chosen weighting scheme.",
+      "fields": [
+        {
+          "prefix": "Accuracy And Completeness Score:",
+          "description": "Accuracy and completeness score (0-10) assigned to the translation."
+        },
+        {
+          "prefix": "Terminology And Consistency Score:",
+          "description": "Terminology and consistency score (0-10) assigned to the translation."
+        },
+        {
+          "prefix": "Fluency And Coherence Score:",
+          "description": "Fluency and coherence score (0-10) assigned to the translation."
+        },
+        {
+          "prefix": "Style Tone And Audience Fit Score:",
+          "description": "Style, tone, and audience-fit score (0-10) assigned to the translation."
+        },
+        {
+          "prefix": "Locale Conventions And Formatting Score:",
+          "description": "Locale conventions and formatting score (0-10) assigned to the translation."
+        },
+        {
+          "prefix": "Technical Integrity Score:",
+          "description": "Technical integrity score (0-10) assigned to the translation."
+        },
+        {
+          "prefix": "Cultural Appropriateness Score:",
+          "description": "Cultural appropriateness score (0-10) assigned to the translation."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Score:",
+          "description": "Aggregated score (0-100) assigned to the translation."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.12",
+      "dspy": "3.0.0b2",
+      "cloudpickle": "3.1"
+    }
+  }
+}

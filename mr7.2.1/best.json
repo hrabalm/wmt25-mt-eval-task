@@ -1,0 +1,101 @@
+{
+  "translation_quality_estimation.module.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "src_lang": "Czech",
+        "tgt_lang": "Ukrainian",
+        "src_text": "hmatová tykadla",
+        "tgt_text": "тактильні вусики",
+        "score": 83
+      },
+      {
+        "src_lang": "English",
+        "tgt_lang": "Japanese",
+        "src_text": "it makes sense that ai revenge of boardroom derangement has metastasized from all creativity is fungible to there is no value in shared experience",
+        "tgt_text": "会議室での混乱に対するAIの復讐が、すべての創造性は代替可能であることから、共有された経験に価値がないことに転移したのは理にかなっています。",
+        "score": 81
+      },
+      {
+        "src_lang": "English",
+        "tgt_lang": "Chinese",
+        "src_text": "No longer able to see, Thassalin tried to retreat, but found himself scraping against the top of the treeline, before crashing into a clearing. The creature seemed to know exactly where Thassalin had fallen and headed straight for him, taking the dark cloud with it.",
+        "tgt_text": "塔萨林再也看不见东西了，他试图后退，但发现自己在树线上方的刮擦，然后撞进了一个空旷处。这个生物似乎知道塔萨林跌落的位置，直接朝他冲过去，黑云也跟着它一起移动。",
+        "score": 55
+      },
+      {
+        "src_lang": "Czech",
+        "tgt_lang": "Ukrainian",
+        "src_text": "Beruška je sladkovodní všežravý korýš.",
+        "tgt_text": "Берушка - це прісноводний всеїдний ракоподібний.",
+        "score": 20
+      }
+    ],
+    "signature": {
+      "instructions": "You are a professional translation quality evaluator. Your task is to assess the quality of a translation based on several criteria. Given the source language, target language, source text, and the translated text, provide a detailed evaluation. Assign scores for each of the following metrics on a scale of 0 to 10, where 0 indicates an unusable translation requiring significant rework, 5 represents an acceptable translation with moderate edits needed, and 10 signifies a publish-ready, high-quality translation. The metrics are: Accuracy and Completeness (fidelity to the source meaning), Terminology and Consistency (domain-appropriate terms and uniformity), Fluency and Coherence (grammar, flow, and readability), Style, Tone, and Audience Fit (appropriateness for the intended audience), Locale Conventions and Formatting (correctness of regional settings), Technical Integrity (accuracy of placeholders and tags), and Cultural Appropriateness (sensitivity to cultural nuances). Finally, provide an overall score (0-100) reflecting the translation's overall quality and a detailed reasoning for your assessment.",
+      "fields": [
+        {
+          "prefix": "Src Lang:",
+          "description": "${src_lang}"
+        },
+        {
+          "prefix": "Tgt Lang:",
+          "description": "${tgt_lang}"
+        },
+        {
+          "prefix": "Src Text:",
+          "description": "${src_text}"
+        },
+        {
+          "prefix": "Tgt Text:",
+          "description": "${tgt_text}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Accuracy And Completeness Score:",
+          "description": "Accuracy and completeness score (0-10) assigned to the translation. (fidelity to the source meaning—no omissions, additions, or distortions)"
+        },
+        {
+          "prefix": "Terminology And Consistency Score:",
+          "description": "Terminology and consistency score (0-10) assigned to the translation. (domain-appropriate terms, glossary adherence, and uniformity across the text)"
+        },
+        {
+          "prefix": "Fluency And Coherence Score:",
+          "description": "Fluency and coherence score (0-10) assigned to the translation. (grammar, spelling, punctuation, smooth logical flow, and use of connectors)"
+        },
+        {
+          "prefix": "Style Tone And Audience Fit Score:",
+          "description": "Style, tone, and audience-fit score (0-10) assigned to the translation. (formality, voice, inclusivity, and suitability to the intended readership)"
+        },
+        {
+          "prefix": "Locale Conventions And Formatting Score:",
+          "description": "Locale conventions and formatting score (0-10) assigned to the translation. (numbers, units, dates, currencies, capitalization, and other locale-specific formats)"
+        },
+        {
+          "prefix": "Technical Integrity Score:",
+          "description": "Technical integrity score (0-10) assigned to the translation. (placeholders, markup\/tags, string length limits, and structural fidelity)"
+        },
+        {
+          "prefix": "Cultural Appropriateness Score:",
+          "description": "Cultural appropriateness score (0-10) assigned to the translation. (Are idioms, references, and sensitivities suitable for the target culture?)"
+        },
+        {
+          "prefix": "Score:",
+          "description": "Aggregated overall score (0-100) assigned to the translation."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.12",
+      "dspy": "3.0.0b2",
+      "cloudpickle": "3.1"
+    }
+  }
+}
